@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovementPrueba : MonoBehaviour {
+public class AnimalRandMovement : MonoBehaviour {
+
+	// Use this for initialization
 
 	public float speed = 2f;
 
@@ -20,8 +22,8 @@ public class MovementPrueba : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		float h = Input.GetAxisRaw ("HorizontalP2");
-		float v = Input.GetAxisRaw ("VerticalP2");
+		float h = ;
+		float v = ;
 
 		Move (h, v);
 		Animating (h, v);
@@ -54,8 +56,5 @@ public class MovementPrueba : MonoBehaviour {
 			anim.SetBool ("IsFacingNorth", facingNorth);
 		}
 	}
-	void Rotate(float h)
-	{
 
-	}
 }

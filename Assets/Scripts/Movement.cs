@@ -10,13 +10,13 @@ public class Movement : MonoBehaviour {
 
 	Vector3 movement;
 	Animator anim;
-	Rigidbody2D playerRigidBody;
+	Rigidbody playerRigidBody;
 
 
 	void Awake()
 	{
 		anim = GetComponent<Animator> ();
-		playerRigidBody = GetComponent<Rigidbody2D> ();
+		playerRigidBody = GetComponent<Rigidbody> ();
 
 	}
 
